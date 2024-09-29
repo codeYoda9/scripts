@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo -e "Log into Raspi -> 'ssh labuser@lab-raspberrypi-1'\n"
+
+echo -e "Log into lab laptop -> 'ssh labuser@lab-laptop-78ntyd3'\n"
+
+echo -e "Log into Durango -> 'ssh shreyass@durango-vm-u22'\n"
+
+echo -e "Search for Jetson-428n using 'tailscale status | grep 428'\n"
+
+echo -e "JIL lab-desktop-10 username: jil password: outsmartkoreaacid\n"
+
+echo -e "sudo tailscale up --reset --force-reauth --advertise-tags=tag:lab\n"
+
+echo -e "sudo reboot --force forced-recovery\n"
+
+echo -e "honor-strong-tripod-boiler-42\n"
+
+echo -e "sudo -E cavnue-tegra-mfg\n"
+
+echo -e "FutureRoads\n"
