@@ -1,0 +1,5 @@
+#!/bin/bash
+
+IPADDR=$(tailscale status | grep -v offline | grep 428 | awk '{print $1}')
+
+scp -P 2222 -r $1 cavnue@$IPADDR:~/shreyas

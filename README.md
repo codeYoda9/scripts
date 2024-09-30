@@ -1,12 +1,12 @@
 # Setup
 
 ## Add following code to `/bashrc`.
-## Add scripts to PATH
+1. Add scripts to PATH
 ```
 export PATH=$PATH:~/work/sample_code/scripts
 ```
 
-## Show git branch name
+2. Show git branch name
 ```
 force_color_prompt=yes
 color_prompt=yes
