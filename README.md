@@ -2,9 +2,12 @@
 
 ## Add following code to `/bashrc`.
 ## Add scripts to PATH
+```
 export PATH=$PATH:~/work/sample_code/scripts
+```
 
 ## Show git branch name
+```
 force_color_prompt=yes
 color_prompt=yes
 parse_git_branch()
@@ -18,3 +21,4 @@ else
   PS1='${debian_chroot:+($debian_chroot)}\u@\h:\W$(parse_git_branch)\$ '
 fi
 unset color_prompt force_color_prompt
+```
